@@ -1,0 +1,47 @@
+.p-container {
+    margin: 30px;
+    display: flex;
+}
+.p-card {
+    position: relative;
+    height: 450px;
+    width: 500px;
+    margin: 200px auto;
+    background-color: #FFF;
+    -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+}
+.p-img {
+    z-index: 1;
+    float: left;
+    position: relative;
+    left: 30px;
+    top: -30px;
+    height: 280px;
+    width: 400px;
+    -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+.p-right {
+    padding-left: 20px;
+}
+.separator {
+    margin-top: 10px;
+    border: 1px solid #C3C3C3;
+}
+.p-desc {
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 0.95rem;
+    line-height: 150%;
+    color: #4B4B4B;
+}
+.right {
+    overflow-y: hidden;
+    position: absolute;
+    bottom: 0;
+    max-height: 180px;
+}

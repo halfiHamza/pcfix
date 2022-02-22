@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@700&display=swap');
+.profile-container {
+    float: left;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("../../../assets/Home/bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    padding-top: 10px;
+}
+.profile-parent {
+    padding-top: 20px;
+    width: 50%;
+    display: flex;
+    color: var(--white);
+}
+.welcome {
+    color: #e74c3c;
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+.profile-desc {
+    font-size: 14px;
+    word-wrap: break-word;
+    padding-top: 20px;
+}
+.subtitles ul{
+    padding-left: 18px;
+    text-align: start;
+}
+.profile-picture {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-picture img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-picture:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+.colz {
+    margin-top: 13px;
+}
+.colz .colz-icon i {
+    color: var(--white);
+    padding: 8px;
+    padding-left: 0px;
+    
+}
+.colz .colz-icon i:hover {
+    transform: scale(1.5);
+}
+@media screen and (max-width: 1070px){
+    .profile-details {
+        width: 100%;
+    }
+    .welcome {
+        font-size: 30px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .profile-desc {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    .profile-parent {
+        padding: 30px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .profile-picture {
+        margin: 0 0px 0 80px;
+    }
+    .profile-details-name {
+        font-size: 20px;
+    }
+    .profile-details-role .primary-text {
+        font-size: 12px;
+    }
+    .profile-options .btn {
+        width: 120px;
+        padding: 11px 0;
+    }
+    .profile-container {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+.team-container {
+    display: flex;
+    left: 0;
+    align-items: center;
+}
+.person {
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.team-desc {
+    padding-left: 9px;
+    font-size: 10pt;
+    color: gray;
+    padding-left: 0;
+    margin-left: 0;
+}
+.team-persons {
+    display: inline-block;
+    transform: scale(-1, 1);
+}
+.person img{
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    max-width: 35px;
+    max-height: 35px;
+    display: block;
+    transform: scale(-1, 1);
+}
+.person:not(:first-child) {
+    margin-left: -13px;
+}
+.Email-input {
+    width: 300px;
+    height: 31px;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+}
+.contact-btn {
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 0 5px 5px 0;
+    height: 34px;
+    line-height: 0;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    border-left: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
