@@ -5,6 +5,7 @@ import Fatahe from "../../../assets/Team/fatahe.jpg";
 import Abdsamed from "../../../assets/Team/abdsamed.jpg";
 import Hako from "../../../assets/Team/hako.jpg";
 import Hamza from "../../../assets/Team/hamza.jpg";
+import Djamel from "../../../assets/Team/djamel.jpg";
 
 function Profile(props) {
   return (
@@ -51,6 +52,9 @@ function Profile(props) {
           </div>
           <div className="team-container">
             <ul className="team-persons">
+              <li className="person">
+                <img src={Djamel} alt="Fatahe" />
+              </li>
               <li className="person">
                 <img src={Hamza} alt="Fatahe" />
               </li>
